@@ -1,0 +1,26 @@
+.gallery{
+    margin: 10px 50px ;
+    border: 5px solid black;
+    
+}
+
+.gallery img{
+    transition: 1s;
+    margin: 15px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(againts.otf);
+}
+h1{
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 4em;
+}
